@@ -1,0 +1,9 @@
+button {
+    display: inline-block !important;
+    max-width: fit-content;
+}
+
+.right {
+    text-align: right !important;
+    right: 0 !important;
+}

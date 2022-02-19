@@ -1,0 +1,35 @@
+.legging__header>h2 {
+    position: relative;
+}
+
+.legging__header>h2:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+.legging__header>h2:hover:after {
+    width: 100%;
+    left: 0;
+}
+
+button {
+    box-shadow: 0px 8px 30px rgba(7, 7, 7, 0.9);
+}
+
+.title {
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.img {
+    height: 260px;
+    width: 100%;
+}
